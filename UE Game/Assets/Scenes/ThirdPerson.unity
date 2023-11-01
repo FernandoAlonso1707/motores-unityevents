@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.4964127, b: 0.57481724, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -140,19 +140,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1032073590493382659, guid: 310a5d92a0311cd4288faf70b1900b04, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000017149901
+      value: -0.0000000171499
       objectReference: {fileID: 0}
     - target: {fileID: 1032073590493382659, guid: 310a5d92a0311cd4288faf70b1900b04, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000013930277
+      value: 0.0000000013930276
       objectReference: {fileID: 0}
     - target: {fileID: 1256620889606926236, guid: 310a5d92a0311cd4288faf70b1900b04, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.000000017648663
+      value: -0.00000001764867
       objectReference: {fileID: 0}
     - target: {fileID: 1256620889606926236, guid: 310a5d92a0311cd4288faf70b1900b04, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.0000000017572107
+      value: 0.0000000017572114
       objectReference: {fileID: 0}
     - target: {fileID: 1464370909062083105, guid: 310a5d92a0311cd4288faf70b1900b04, type: 3}
       propertyPath: m_Name
@@ -862,6 +862,7 @@ Transform:
   - {fileID: 948329193}
   - {fileID: 1405489783}
   - {fileID: 1504907641}
+  - {fileID: 1781881542}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1184,7 +1185,7 @@ MonoBehaviour:
   offset: {x: 0, y: -7, z: 0}
   ligado: 0
   iniciarNoOffset: 0
-  velocidade: 15
+  velocidade: 20
 --- !u!65 &1341556174
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1298,7 +1299,7 @@ MonoBehaviour:
   offset: {x: 0, y: -7, z: 0}
   ligado: 0
   iniciarNoOffset: 1
-  velocidade: 15
+  velocidade: 20
 --- !u!65 &1363658584
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1488,7 +1489,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1482390805}
-  m_LocalRotation: {x: 0.08095997, y: 0.00000003509449, z: -0.0000000028506064, w: 0.9967174}
+  m_LocalRotation: {x: 0.08095997, y: -0.00000003509449, z: 0.0000000028506064, w: 0.9967174}
   m_LocalPosition: {x: 0.6950879, y: 4.1, z: -13.311687}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -2059,6 +2060,103 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1738291329}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1781881541
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1781881542}
+  - component: {fileID: 1781881545}
+  - component: {fileID: 1781881544}
+  - component: {fileID: 1781881543}
+  m_Layer: 3
+  m_Name: Cube (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1781881542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781881541}
+  m_LocalRotation: {x: -0, y: 0.3529542, z: -0, w: 0.9356407}
+  m_LocalPosition: {x: 18.38, y: 3.78, z: 7.1}
+  m_LocalScale: {x: 4.2072587, y: 4.882228, z: 3.9520528}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 971490151}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 41.336, z: 0}
+--- !u!65 &1781881543
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781881541}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1781881544
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781881541}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1781881545
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781881541}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1968616706
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2175,7 +2273,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 200
+          m_IntArgument: 3000
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2187,7 +2285,7 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 20
+          m_IntArgument: 60
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
